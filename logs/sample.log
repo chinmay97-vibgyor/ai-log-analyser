@@ -1,0 +1,20 @@
+2024-01-15 08:00:01 INFO Application started successfully
+2024-01-15 08:01:23 INFO Database connection established
+2024-01-15 08:05:45 WARNING High memory usage detected: 78%
+2024-01-15 08:10:12 ERROR Failed to process request: timeout after 30s
+2024-01-15 08:10:45 INFO Retrying request... attempt 1 of 3
+2024-01-15 08:11:02 INFO Retrying request... attempt 2 of 3
+2024-01-15 08:11:20 ERROR Retry failed: connection refused on port 5432
+2024-01-15 08:15:33 WARNING Disk usage at 85%, cleanup recommended
+2024-01-15 08:20:11 CRITICAL Out of memory exception in module: data_processor
+2024-01-15 08:20:12 ERROR Application crashed: unhandled exception
+2024-01-15 08:20:15 INFO Auto-restart triggered
+2024-01-15 08:21:00 INFO Application restarted successfully
+2024-01-15 08:25:44 WARNING CPU usage spike: 92% for 10 seconds
+2024-01-15 08:30:05 INFO Scheduled backup started
+2024-01-15 08:35:22 ERROR Backup failed: insufficient storage space
+2024-01-15 08:40:18 INFO New user login: user_id=1042
+2024-01-15 08:45:09 WARNING Slow query detected: 4.2s on users table
+2024-01-15 08:50:33 ERROR Database connection lost unexpectedly
+2024-01-15 08:51:00 INFO Attempting to reconnect to database
+2024-01-15 08:51:15 INFO Database reconnected successfully
